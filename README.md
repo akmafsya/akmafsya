@@ -9,7 +9,9 @@
 
 I am building my foundations through university coursework, guided security labs, CTF challenges, and small software projects. I am especially interested in vulnerability analysis, network and service enumeration, packet analysis, phishing investigation, Linux security, and secure web application design.
 
-## Selected coursework and labs
+<p align="center">
+  <img src="https://raw.githubusercontent.com/akmafsya/akmafsya/5a286008a2332fda2d99ba706004da9361644481/assets/section-coursework.svg" width="100%" alt="Selected coursework and labs" />
+</p>
 
 | Project | What I practised |
 | --- | --- |
@@ -22,7 +24,9 @@ I am building my foundations through university coursework, guided security labs
 
 > The security work in these repositories was completed in coursework, CTFs, or intentionally vulnerable lab environments.
 
-## NusaForge Inventory
+<p align="center">
+  <img src="https://raw.githubusercontent.com/akmafsya/akmafsya/5a286008a2332fda2d99ba706004da9361644481/assets/section-nusaforge.svg" width="100%" alt="NusaForge Inventory" />
+</p>
 
 **An AI-assisted full-stack learning project**
 
@@ -32,12 +36,16 @@ I am using the project to learn how a React interface, server API, authenticatio
 
 This is a learning project and fictional demonstration, not a production inventory system.
 
-## Tools I am practising with
+<p align="center">
+  <img src="https://raw.githubusercontent.com/akmafsya/akmafsya/5a286008a2332fda2d99ba706004da9361644481/assets/section-tools.svg" width="100%" alt="Tools I am practising with" />
+</p>
 
 **Security labs:** Kali Linux, Nmap, Wireshark, Nessus, Gobuster, Enum4linux, CyberChef, and Linux command-line tools  
 **Development:** TypeScript, React, Next.js, SQL, Supabase, Git, and GitHub
 
-## Currently learning
+<p align="center">
+  <img src="https://raw.githubusercontent.com/akmafsya/akmafsya/5a286008a2332fda2d99ba706004da9361644481/assets/section-learning.svg" width="100%" alt="Currently learning" />
+</p>
 
 - Secure system and network fundamentals.
 - Clear, reproducible technical documentation for labs and CTFs.
