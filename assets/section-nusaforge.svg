@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="62" viewBox="0 0 1100 62" role="img" aria-labelledby="title">
+  <title id="title">NusaForge Inventory</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#07111f"/><stop offset="1" stop-color="#102a43"/></linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#d83b4b"/><stop offset=".33" stop-color="#f4f4f4"/><stop offset=".66" stop-color="#2d6bb2"/><stop offset="1" stop-color="#e9bd4f"/></linearGradient>
+  </defs>
+  <rect width="1100" height="62" rx="13" fill="url(#bg)"/>
+  <path d="M965 0 996 31 965 62M1017 0l31 31-31 31M1069 0l31 31-31 31" fill="none" stroke="#e9bd4f" opacity=".12"/>
+  <rect x="0" y="58" width="1100" height="4" rx="2" fill="url(#line)"/>
+  <text x="24" y="39" fill="#e9bd4f" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="15" font-weight="700" letter-spacing="2">02</text>
+  <text x="70" y="40" fill="#7ee7dc" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="23" font-weight="700" letter-spacing="1.4">NUSAFORGE INVENTORY</text>
+  <text x="1056" y="39" text-anchor="end" fill="#b7c8db" opacity=".58" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="13" font-weight="600" letter-spacing="3">BINA</text>
+</svg>
