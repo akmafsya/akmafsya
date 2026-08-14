@@ -1,6 +1,11 @@
-# Hi, I'm Asyraf.
+<p align="center">
+  <img src="assets/malay-culture-banner.svg" width="100%" alt="Animated Malaysian-inspired banner for Muhammad Asyraf Hakim, a Computer System Security student" />
+</p>
 
-**University IT student · Computer System Security**
+<p align="center">
+  <strong>University IT student · Computer System Security</strong><br />
+  <sub>Bina · Uji · Belajar — Build · Test · Learn</sub>
+</p>
 
 I am building my foundations through university coursework, guided security labs, CTF challenges, and small software projects. I am especially interested in vulnerability analysis, network and service enumeration, packet analysis, phishing investigation, Linux security, and secure web application design.
 
