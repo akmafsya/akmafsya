@@ -61,9 +61,7 @@
     }
     @keyframes blink { 0%, 48% { opacity: 1; } 49%, 100% { opacity: 0; } }
     @media (prefers-reduced-motion: reduce) {
-      .pattern-scroll, .kite, .kite-glow, .scan, .spark-a, .spark-b, .typed-line, .terminal-cursor { animation: none; }
-      .typed-line { opacity: 0; clip-path: none; }
-      .typed-1, .terminal-cursor { opacity: 1; }
+      .pattern-scroll, .kite, .kite-glow, .scan, .spark-a, .spark-b { animation: none; }
     }
   </style>
 
