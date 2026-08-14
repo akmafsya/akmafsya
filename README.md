@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/malay-culture-banner.svg" width="100%" alt="Animated Malaysian-inspired banner for Muhammad Asyraf Hakim, a Computer System Security student" />
+  <img src="https://raw.githubusercontent.com/akmafsya/akmafsya/d21cc94a3c757d0556f8e134db0a4d99f9d6626e/assets/malay-culture-banner.svg" width="100%" alt="Animated Malaysian-inspired banner for Muhammad Asyraf Hakim, a Computer System Security student" />
 </p>
 
 <p align="center">
