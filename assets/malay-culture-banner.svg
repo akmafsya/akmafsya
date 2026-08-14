@@ -43,13 +43,27 @@
     .scan { animation: scan 5s ease-in-out infinite; }
     .spark-a { animation: twinkle 2.8s ease-in-out infinite; }
     .spark-b { animation: twinkle 2.8s 1.4s ease-in-out infinite; }
+    .typed-line { opacity: 0; animation: typeLine 16s steps(34, end) infinite; }
+    .typed-1 { opacity: 1; }
+    .typed-2 { animation-delay: 4s; }
+    .typed-3 { animation-delay: 8s; }
+    .typed-4 { animation-delay: 12s; }
+    .terminal-cursor { animation: blink .8s steps(1, end) infinite; }
     @keyframes drift { from { transform: translateX(-96px); } to { transform: translateX(0); } }
     @keyframes float { 0%, 100% { transform: translateY(0) rotate(-1deg); } 50% { transform: translateY(-10px) rotate(1.5deg); } }
     @keyframes breathe { 0%, 100% { opacity: .25; } 50% { opacity: .6; } }
     @keyframes scan { 0% { transform: translateX(-520px); opacity: 0; } 18% { opacity: .7; } 82% { opacity: .7; } 100% { transform: translateX(1500px); opacity: 0; } }
     @keyframes twinkle { 0%, 100% { opacity: .2; transform: scale(.8); } 50% { opacity: 1; transform: scale(1.15); } }
+    @keyframes typeLine {
+      0%, 1% { opacity: 1; clip-path: inset(0 100% 0 0); }
+      16%, 22% { opacity: 1; clip-path: inset(0 0 0 0); }
+      24.5%, 100% { opacity: 0; clip-path: inset(0 0 0 0); }
+    }
+    @keyframes blink { 0%, 48% { opacity: 1; } 49%, 100% { opacity: 0; } }
     @media (prefers-reduced-motion: reduce) {
-      .pattern-scroll, .kite, .kite-glow, .scan, .spark-a, .spark-b { animation: none; }
+      .pattern-scroll, .kite, .kite-glow, .scan, .spark-a, .spark-b, .typed-line, .terminal-cursor { animation: none; }
+      .typed-line { opacity: 0; clip-path: none; }
+      .typed-1, .terminal-cursor { opacity: 1; }
     }
   </style>
 
@@ -67,7 +81,12 @@
       <rect x="108" y="0" width="48" height="4" rx="2" fill="#2d6bb2"/>
       <rect x="162" y="0" width="48" height="4" rx="2" fill="#e9bd4f"/>
       <text x="0" y="62" fill="#f8fafc" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="54" font-weight="700" letter-spacing="1">Muhammad Asyraf Hakim</text>
-      <text x="2" y="103" fill="#b7c8db" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="23" letter-spacing="2">COMPUTER SYSTEM SECURITY STUDENT</text>
+      <g fill="#b7c8db" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="23" letter-spacing="2">
+        <text class="typed-line typed-1" x="2" y="103">COMPUTER SYSTEM SECURITY STUDENT<tspan class="terminal-cursor" fill="#7ee7dc">_</tspan></text>
+        <text class="typed-line typed-2" x="2" y="103">CTF &amp; LAB LEARNER<tspan class="terminal-cursor" fill="#7ee7dc">_</tspan></text>
+        <text class="typed-line typed-3" x="2" y="103">BUILDING NUSAFORGE WITH CODEX<tspan class="terminal-cursor" fill="#7ee7dc">_</tspan></text>
+        <text class="typed-line typed-4" x="2" y="103">BINA · UJI · BELAJAR<tspan class="terminal-cursor" fill="#7ee7dc">_</tspan></text>
+      </g>
       <text x="2" y="154" fill="#e9bd4f" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="19" font-weight="600" letter-spacing="4">BINA · UJI · BELAJAR</text>
       <text x="2" y="187" fill="#8fa7bf" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="15" letter-spacing="1.5">COURSEWORK  /  CTF LABS  /  AI-ASSISTED DEVELOPMENT</text>
     </g>
